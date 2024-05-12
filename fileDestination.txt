@@ -1,0 +1,2 @@
+This is the content of source file.
+These content get copied to the destination file when the code in fileCopyContent.py is executed.
