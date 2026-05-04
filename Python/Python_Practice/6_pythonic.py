@@ -15,3 +15,10 @@ print("Squares using list comprehension:", squares)
 
 squares_lambda = list(map(lambda x: x**2, numbers))
 print("Squares using lambda and map:", squares_lambda)
+
+
+# Example 3: Using list comprehension with a condition to filter even numbers
+
+even_numbers = [x for x in numbers if x % 2 == 0]
+print("Even numbers using list comprehension:", even_numbers)
+
