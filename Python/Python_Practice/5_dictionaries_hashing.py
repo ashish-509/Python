@@ -13,7 +13,7 @@ def majorityElements(elements):
             count[element] = 1
 
     for element, frequency in count.items():
-        if frequency > n //3:
+        if frequency > n // 3:
             result.append(element)
 
     return result
