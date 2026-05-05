@@ -15,5 +15,5 @@ def get_integer_input(prompt):
 
 
 # Example usage
-age = get_integer_input("Please enter your age: ")
-print(f"You entered: {age}")    
+age = get_integer_input("Please enter your age : ")
+print(f"Your entered age is : {age}")    
