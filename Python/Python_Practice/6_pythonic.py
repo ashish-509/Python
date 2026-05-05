@@ -28,3 +28,11 @@ print("Even numbers using list comprehension:", even_numbers)
 even_numbers_lambda = list(filter(lambda x: x % 2 == 0, numbers))
 print("Even numbers using lambda and filter:", even_numbers_lambda)
 
+
+# Example 5: Using list comprehension to create a list of tuples (number, square)
+
+number_square_tuples = [(x, x**2) for x in numbers]
+print("Number and square tuples using list comprehension:", number_square_tuples)
+
+
+
