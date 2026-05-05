@@ -28,3 +28,15 @@ class BankAccount:
 
     def check_balance(self):
         print(f"Current balance: ${self.balance}.")
+
+
+# Example usage:
+account = BankAccount()
+account.deposit(100)
+account.check_balance()
+account.withdraw(30)
+account.check_balance()
+account.withdraw(80)
+account.check_balance()
+account.withdraw(-10)
+account.deposit(-20)
