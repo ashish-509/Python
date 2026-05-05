@@ -1,0 +1,2 @@
+This file contains the content for the another task 7.
+This is the file with some content.
