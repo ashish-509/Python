@@ -20,3 +20,9 @@ vec1 = [1, 2, 3]
 vec2 = [4, 5, 6]
 custom_dot = dot_product(vec1, vec2)
 print("Custom Dot Product:", custom_dot)
+
+
+import numpy as np
+np_dot = np.dot(vec1, vec2)
+print("NumPy Dot Product:", np_dot)
+
